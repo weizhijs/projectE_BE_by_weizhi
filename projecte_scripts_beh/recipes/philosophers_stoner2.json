@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "weizhi:philosophers_stoner2"
+        },
+        "tags": [ "crafting_table" ],
+        "key": {
+            "A": {
+                "item": "minecraft:redstone"
+            },
+            "B": {
+                "item": "minecraft:glowstone_dust"
+            },
+            "C": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "pattern": [
+            "BAB",
+            "ACA",
+            "BAB"
+        ],
+        "result": {
+            "item": "weizhi:philosophers_stone"
+        }
+    }
+}

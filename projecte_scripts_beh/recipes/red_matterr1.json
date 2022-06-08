@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "weizhi:red_matterr1"
+        },
+        "tags": [ "crafting_table" ],
+        "key": {
+            "A": {
+                "item": "weizhi:aeternalis_fuel"
+            },
+            "B": {
+                "item": "weizhi:dark_matter"
+            }
+        },
+        "pattern": [
+            "AAA",
+            "BBB",
+            "AAA"
+        ],
+        "result": {
+            "item": "weizhi:red_matter"
+        }
+    }
+}

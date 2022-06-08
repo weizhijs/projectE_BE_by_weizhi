@@ -1,0 +1,44 @@
+﻿{
+	"format_version": 2,
+	"header": {
+		"name": "§e§l等价交换BE§r by未知 behavior",
+		"description": "请务必开启实验玩法中的假日创造者功能和启用GameTest框架! 输入 /function pehelp 查看使用帮助! 西瓜视频-迪粉未知解说制作, 1.18.30+\nPlease open Holiday Creator Features and GameTest Framework!",
+		"uuid": "4f0835bc-dc3e-46fe-adc7-f671d8b9617c",
+		"version": [0, 0, 2],
+    	"min_engine_version": [1, 16, 0]
+	},
+	"modules": [
+		{
+			"description": "projecte gametest scripts test",
+			"uuid": "39c27555-857e-4637-aebb-6a079bd835cd",
+			"version": [0, 0, 2],
+			"type": "javascript",
+			"entry": "scripts/projecte_main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "de920b2b-9f64-4bdc-8387-4652e1c7da98",
+			"version": [0, 0, 2]
+		},
+		{
+			// Minecraft native module - needed to use the "mojang-minecraft" module
+			//"description": "mojang-minecraft",
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": [0, 1, 0]
+		},
+		{
+			// GameTest native module - needed to use the "mojang-gametest" module
+			//"description": "mojang-gametest",
+			"uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+			"version": [0, 1, 0]
+		},
+		{
+			// Minecraft UI native module - needed to use the "mojang-minecraft-ui" module
+			// You must be using Minecraft versions above Beta 1.18.20.21 or Release 1.18.30
+			//"description": "mojang-minecraft-ui",
+			"uuid": "2bd50a27-ab5f-4f40-a596-3641627c635e",
+			"version": [0, 1, 0]
+		}
+	]
+}

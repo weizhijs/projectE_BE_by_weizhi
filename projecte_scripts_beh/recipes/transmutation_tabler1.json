@@ -1,0 +1,33 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "weizhi:transmutation_tabler1"
+        },
+        "tags": [ "crafting_table" ],
+        "key": {
+            "A": {
+                "item": "minecraft:stone"
+            },
+            "B": {
+                "item": "minecraft:obsidian"
+            },
+            "C": {
+                "item": "weizhi:philosophers_stone"
+            }
+        },
+        "pattern": [
+            "ABA",
+            "BCB",
+            "ABA"
+        ],
+        "result": [
+            {
+                "item": "weizhi:transmutation_table"
+            },
+            {
+                "item": "weizhi:philosophers_stone"
+            }
+        ]
+    }
+}

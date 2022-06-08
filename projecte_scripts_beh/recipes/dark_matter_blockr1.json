@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "weizhi:dark_matter_block1"
+        },
+        "tags": [ "crafting_table" ],
+        "key": {
+            "A": {
+                "item": "weizhi:dark_matter"
+            }
+        },
+        "pattern": [
+            "AA ",
+            "AA ",
+            "   "
+        ],
+        "result": [
+            {
+                "item": "weizhi:dark_matter_block"
+            }
+        ]
+    }
+}

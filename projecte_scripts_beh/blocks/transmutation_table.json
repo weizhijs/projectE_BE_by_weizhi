@@ -1,0 +1,51 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "weizhi:transmutation_table",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.items"
+      },
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      },
+      "minecraft:block_light_emission": 0,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:explosion_resistance": 100.0,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "weizhi:transmutation_table22",
+          "render_method": "opaque"
+        }
+      },
+		  "minecraft:geometry": "geometry.weizhi_transmutation_table",
+      //"minecraft:loot": "loot_tables/outros/transmutation_table.json",
+      "minecraft:entity_collision": {
+        "origin": [-8,0,-8],
+        "size": [16,4,16]
+      },
+      "minecraft:pick_collision": {
+        "origin": [-8,0,-8],
+        "size": [16,4,16]
+      },
+      "minecraft:friction": 0.6,
+      "minecraft:destroy_time": 1.5
+	  },
+	  "events": {
+		  "naju": {
+				"run_command": {
+					"command": [
+            "summon test:ui ~~-0.5~-1",
+            "setblock ~~~ scooby:transmutation_table_1.projecte"
+				  ]
+			  }
+      }
+    }
+  }
+}
